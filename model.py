@@ -71,4 +71,4 @@ pred = model.predict(X_test_arr)
 print(f"\n Precision score: {round(precision_score(y_test, pred),2)}")
 
 with open('metrics.txt', 'w') as out_metric:
-    out_metric.write(f"\n Precision score: {round(precision_score(y_test, pred),2)}")
+    out_metric.write(f" Precision score: {round(precision_score(y_test, pred),2)}")
