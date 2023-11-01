@@ -15,3 +15,6 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python model.py
+
+          cat metrics.txt >> report.md
+          cml comment create report.md
